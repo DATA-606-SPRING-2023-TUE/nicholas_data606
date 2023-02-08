@@ -51,7 +51,7 @@ Some of the values are object values in the original dataset and will need some 
 
 • Sentiment analysis and natural language processing to analyze consumer reviews
 
-• Lasso Regression/Ridge Regression to determine strength of correlation between features and price
+• Lasso Regression/Ridge Regression to determine strength of correlation between features and price (feature selection to base predictions off of)
 
 Using natural language processing, reviews can be scanned for key words to determine what customers seem to value in coffee.  These key words can be compared to ratings in order to train a prediction based on sentiment analysis.  Using this, it may be possible to predict future ratings based on the text of a review alone.  Furthermore, a correlation can be drawn between key words and high ratings in order to determine what customers seem to value in coffee.  This can give manufacturers an idea of what to produce in order to generate the best profits.
 Coffee characteristics such as acidity, aroma, body, and flavor can also be compared with price and reviews in order to determine what combination of these characteristics result in the highest priced coffee and the coffee with the best consumer ratings.
