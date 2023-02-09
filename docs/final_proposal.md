@@ -25,7 +25,7 @@ Source: https://www.kaggle.com/datasets/hanifalirsyad/coffee-scrap-coffeereview/
 
 Dataset found on Kaggle was created by scraping the website www.coffeereviews.com for reviews between the dates Dec-2017 and Nov-2022
 
-The dataset includes coffee from 988 unqiue origins with the most popular location being southern Ethiopia.  38 entries have unknown origins.
+The dataset includes coffee from 988 unqiue origins with the most popular location being southern Ethiopia.  38 entries have unknown origins.  Origins are very specific and may need to be binned by country or region in order to produce a more accurate model.
 
 The original csv file includes 37 columns and 2282 rows.  Some rows and columns will need to be cleaned based off the presence of some null values.
 
@@ -49,7 +49,7 @@ Key features include:
 
 There are many more useful features that may be used but these were selected in particular to look at due to them being objective numeric values that describe the coffee.
 
-Some of the values are object values in the original dataset and will need some convertion to a numeric system in order to perform regressions.
+Some of the values are object values in the original dataset and will need some convertion to a numeric system in order to perform regressions.  (For example, the date the review was written)
 
 ## Models and techniques:
 
@@ -63,4 +63,11 @@ Sentiment analysis will be used to convert the descriptive portion of the review
 
 There are many different features included in this data set.  Each review has various values that are used to describe the coffee.  Coffee characteristics such as acidity, aroma, body, and flavor can be compared in order to determine what combination of these characteristics result in the highest rated coffee.  Lasso Regression and Ridge Regression can identify which of these features have the biggest impact in predicting the label.  This will be useful when attempting to craft the highest rated coffee.
 
+• Prediction Maximization (Simulation?)
+
+Once the model has been trained using the regression techniques above, next is to find a way to maximize the outcome.  This can be done by simulating the model in a brute force method.  By testing all possible combinations of features, a model will be able to eventually determine the optimal combinations of features to produce the highest label value.  However this brute force method can become a very large task based on the number of features and possible values for each of those features.
+
+## Final Result
+
+A successful outcome of this project would be determining the best combination of features for producing the highest rated coffee based off a model trained by using the reviews from the dataset.  This information could give coffee producers an edge in the coffee industry and produce a coffee that consumers will love.
 
