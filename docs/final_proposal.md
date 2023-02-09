@@ -1,21 +1,23 @@
 # DRAFT PROPOSAL
 ### Nicholas Ho
 
-# Coffee
+# Coffee Review Analysis
 
 Coffee is a popular drink worldwide and as a result is a large global industry.  The coffee industry is estimated to be valued in the hundreds of billions of dollars and every day alone, more than 2 billion cups of coffee are consumed.  With no shortage of demand, such a large industry can be an opportunity to analyze consumer trends for the purposes of maximizing profits.  This project seeks to take a look at coffee reviews from the website https://www.coffeereview.com/ in order to determine what characteristics are most favored by consumers and how these can be used to develop coffee in the future to increase profits.
 
 https://en.wikipedia.org/wiki/Economics_of_coffee
 
-## Goal: Analyze the reviews of a wide variety of coffees from around to world in an attempt to create the most profitable coffee.
+## Goal: Analyze the reviews of a wide variety of coffees from around to world in an attempt to create a coffee with the highest rating.
 
-In order to accomplish this goal, several small goals can be accomplished first:
+In order to accomplish this goal, There are several angles that can be explored:
 
-• predict global demand and flavor trends
+• Determine what aspects of coffee that consumers care about most
 
-• determine what aspects of coffee reviwer's care about most
+• Determine correlations between price and rating
 
-• datermine correlations between price and country of origin
+• Examine trends in coffee tastes over time (A time series approach)
+
+I will use the data to train a model to predict the rating of a coffee given a review, and use this model with a maximiztion function to determine the values for each feature that will maximize the rating.
 
 ## Dataset
 
@@ -35,7 +37,7 @@ Key features include:
 
 • price
 
-• acid
+• acidity
 
 • aroma
 
@@ -45,16 +47,20 @@ Key features include:
 
 • description
 
+There are many more useful features that may be used but these were selected in particular to look at due to them being objective numeric values that describe the coffee.
+
 Some of the values are object values in the original dataset and will need some convertion to a numeric system in order to perform regressions.
 
 ## Models and techniques:
 
-• Sentiment analysis and natural language processing to analyze consumer reviews
+The main goal of this project is to predict the rating of a coffee given a review.  The rating will be the label.  Some techniques that will help determine the label include:
+
+• Sentiment analysis and natural language processing to analyze consumer reviews.
+
+Sentiment analysis will be used to convert the descriptive portion of the reviews of coffee into a numerical number.  Once the numerical number is determined, it can then be used as a feature to predict the overall rating of the coffee.
 
 • Lasso Regression/Ridge Regression to determine strength of correlation between features and price (feature selection to base predictions off of)
 
-Using natural language processing, reviews can be scanned for key words to determine what customers seem to value in coffee.  These key words can be compared to ratings in order to train a prediction based on sentiment analysis.  Using this, it may be possible to predict future ratings based on the text of a review alone.  Furthermore, a correlation can be drawn between key words and high ratings in order to determine what customers seem to value in coffee.  This can give manufacturers an idea of what to produce in order to generate the best profits.
-Coffee characteristics such as acidity, aroma, body, and flavor can also be compared with price and reviews in order to determine what combination of these characteristics result in the highest priced coffee and the coffee with the best consumer ratings.
-Lastly, origin of the coffee may also be analyzed and determined whether or not to have a strong relation to the price or ratings.
+There are many different features included in this data set.  Each review has various values that are used to describe the coffee.  Coffee characteristics such as acidity, aroma, body, and flavor can be compared in order to determine what combination of these characteristics result in the highest rated coffee.  Lasso Regression and Ridge Regression can identify which of these features have the biggest impact in predicting the label.  This will be useful when attempting to craft the highest rated coffee.
 
 
