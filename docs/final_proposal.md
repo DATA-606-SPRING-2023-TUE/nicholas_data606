@@ -1,4 +1,4 @@
-# DRAFT PROPOSAL
+# FINAL PROPOSAL
 ### Nicholas Ho
 
 # Coffee Review Analysis
