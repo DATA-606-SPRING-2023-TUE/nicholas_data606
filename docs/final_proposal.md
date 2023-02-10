@@ -57,7 +57,7 @@ The main goal of this project is to predict the rating of a coffee given a revie
 
 • Sentiment analysis and natural language processing to analyze consumer reviews.
 
-Sentiment analysis will be used to convert the descriptive portion of the reviews of coffee into a numerical number.  Once the numerical number is determined, it can then be used as a feature to predict the overall rating of the coffee.
+Sentiment analysis will be used to convert the descriptive portion of the reviews of coffee into a numerical value between -1 and 1 (negative and positive).  Once the numerical number is determined, it can then be used as a feature to predict the overall rating of the coffee.  The model used will be a word-dictionary based model with an Opinion dictionary provided by NLTK (Natural Language Toolkit) for python.  This was choosen due to the low number of data points.  With only several thousand reviews, supervised learning such as naivebayes may not be properly fit.  A word-dictionary based model does not require any training and will not be affected by the number of data points.
 
 • Lasso Regression/Ridge Regression to determine strength of correlation between features and price (feature selection to base predictions off of)
 
