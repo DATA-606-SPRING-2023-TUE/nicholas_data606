@@ -59,7 +59,7 @@ The main goal of this project is to predict the rating of a coffee given a revie
 
 Sentiment analysis will be used to convert the descriptive portion of the reviews of coffee into a numerical value between -1 and 1 (negative and positive).  Once the numerical number is determined, it can then be used as a feature to predict the overall rating of the coffee.  The model used will be a word-dictionary based model with an Opinion dictionary provided by NLTK (Natural Language Toolkit) for python.  This was choosen due to the low number of data points.  With only several thousand reviews, supervised learning such as naivebayes may not be properly fit.  A word-dictionary based model does not require any training and will not be affected by the number of data points.
 
-• Lasso Regression/Ridge Regression to determine strength of correlation between features and price (feature selection to base predictions off of)
+• Lasso Regression/Ridge Regression to determine strength of correlation between features and rating (feature selection to base predictions off of)
 
 There are many different features included in this data set.  Each review has various values that are used to describe the coffee.  Coffee characteristics such as acidity, aroma, body, and flavor can be compared in order to determine what combination of these characteristics result in the highest rated coffee.  Lasso Regression and Ridge Regression can identify which of these features have the biggest impact in predicting the label.  This will be useful when attempting to craft the highest rated coffee.
 
