@@ -48,9 +48,9 @@ Key features include:
 • aftertaste - float64 - 1-10 scale
 
 • description
-- object - Blind Assessment
-- object - Notes
-- object - Bottom Line (summary)
+- Blind Assessment - object
+- Notes - object 
+- Bottom Line (summary) - object 
 
 There are many more useful features that may be used but these were selected in particular to look at due to them being objective numeric values that describe the coffee.
 
