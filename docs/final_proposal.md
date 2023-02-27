@@ -1,7 +1,7 @@
 # FINAL PROPOSAL
 ### Nicholas Ho
 
-# Coffee Review Analysis
+# Maximizing Coffee Rating by Analyzing Coffee Reviews
 
 Coffee is a popular drink worldwide and as a result is a large global industry.  The coffee industry is estimated to be valued in the hundreds of billions of dollars and every day alone, more than 2 billion cups of coffee are consumed.  With no shortage of demand, such a large industry can be an opportunity to analyze consumer trends for the purposes of maximizing profits.  This project seeks to take a look at coffee reviews from the website https://www.coffeereview.com/ in order to determine what characteristics are most favored by consumers and how these can be used to develop coffee in the future to increase profits.
 
@@ -31,21 +31,26 @@ The original csv file includes 37 columns and 2282 rows.  Some rows and columns 
 
 Key features include: 
 
-• origin
+• origin - object - City and Country where the beans originate from.  (Different from where they were roasted)
 
-• roast
+• roast - object - The temperature the beans were roasted at. (Light, Light-Medium, Full Medium, Medium-Dark, Dark)
 
-• price
+• price - object - Dollars/ounces
 
-• acidity
+• acidity - float64 - 1-10 scale
 
-• aroma
+• aroma - float64 - 1-10 scale
 
-• body
+• body - float64 - 1-10 scale
 
-• flavor
+• flavor - float64 - 1-10 scale
+
+• aftertaste - float64 - 1-10 scale
 
 • description
+- object - Blind Assessment
+- object - Notes
+- object - Bottom Line (summary)
 
 There are many more useful features that may be used but these were selected in particular to look at due to them being objective numeric values that describe the coffee.
 
