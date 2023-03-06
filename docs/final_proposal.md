@@ -31,21 +31,21 @@ The original csv file includes 37 columns and 2282 rows.  Some rows and columns 
 
 Key features include: 
 
-• origin - object - City and Country where the beans originate from.  (Different from where they were roasted)
+• origin (object) - City and Country where the beans originate from.  (Different from where they were roasted)
 
-• roast - object - The temperature the beans were roasted at. (Light, Light-Medium, Full Medium, Medium-Dark, Dark)
+• roast (object) - The temperature the beans were roasted at. (Light, Light-Medium, Full Medium, Medium-Dark, Dark)
 
-• price - object - Dollars/ounces
+• price (object) - Dollars/ounces
 
-• acidity - float64 - 1-10 scale
+• acidity (float64) - 1-10 scale
 
-• aroma - float64 - 1-10 scale
+• aroma (float64) - 1-10 scale
 
-• body - float64 - 1-10 scale
+• body (float64) - 1-10 scale
 
-• flavor - float64 - 1-10 scale
+• flavor (float64) - 1-10 scale
 
-• aftertaste - float64 - 1-10 scale
+• aftertaste (float64) - 1-10 scale
 
 • description
 - Blind Assessment - object
