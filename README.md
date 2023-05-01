@@ -25,11 +25,13 @@ I will use the data to train a model to predict the rating of a coffee given a r
 The dataset being used for this project was found on Kaggle and was created by scraping the website www.coffeereviews.com for reviews between the dates Dec-2017 and Nov-2022
 
 Target values include
+
 • Price
 
 • Rating
 
 The most impactful features will be the numeric-typed features
+
 • acidity (float64) - 1-10 scale
 
 • aroma (float64) - 1-10 scale
@@ -41,6 +43,7 @@ The most impactful features will be the numeric-typed features
 • aftertaste (float64) - 1-10 scale
 
 There are several non-numeric features as well
+
 • Blind assessments
 
 • Notes
