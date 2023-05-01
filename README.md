@@ -46,6 +46,8 @@ There are several biases noted on the website where the data was scraped from.  
 
 ## Models and Techniques
 
+### Feature Reduction
+
 ### Lasso Regression
 
 ### Ridge Regression
