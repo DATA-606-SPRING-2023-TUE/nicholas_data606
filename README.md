@@ -26,18 +26,25 @@ The dataset being used for this project was found on Kaggle and was created by s
 
 Target values include
 • Price
+
 • Rating
 
 The most impactful features will be the numeric-typed features
 • acidity (float64) - 1-10 scale
+
 • aroma (float64) - 1-10 scale
+
 • body (float64) - 1-10 scale
+
 • flavor (float64) - 1-10 scale
+
 • aftertaste (float64) - 1-10 scale
 
 There are several non-numeric features as well
 • Blind assessments
+
 • Notes
+
 • Bottom Line
 
 There are several biases noted on the website where the data was scraped from.  Firstly the ratings are skewed high.  This is due to the website's philosophy of focusing on the positive side of Coffee instead of highlighting those that are underperforming.  Another thing to note is that the bar for coffee standards have been rising.  The competition over producing the best coffee has driven producers to continue pushing the quality of their coffee causing an overall increase in rating.  Lastly, because coffeereviews.com is a critic website, they can expect to recieve a higher quality of samples for review.  These facts result in the majority of the data points being focused on the high end of the ratings.  This can lead to a situation where a predictor can become overly fit to match only the high end of the spectrum of coffee.
