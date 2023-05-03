@@ -44,7 +44,8 @@ There are several biases noted on the website where the data was scraped from.  
 
 ## Cleaning
 
-The cleaning process includes not only removing unneeded columns but also performing type conversions.  Non-numeric type values were converted into numeric type values for the purpose of regression.
+The cleaning process included not only removing unneeded columns but also performing type conversions.  Non-numeric type values were converted into numeric type values for the purpose of regression.  Over 12 different currencies had to be converted to USD in order to for the data to be used accurately.  Metric and empyrical measurements had to be converted as well.
+
 - Dates were converted from string to dateTime then to integer
 - Prices and quantities were standardized.
   - These values were converted to USD/grams for the sake of comparison
@@ -52,6 +53,7 @@ The cleaning process includes not only removing unneeded columns but also perfor
 - Text portions of reviews were converted to numeric values using VADER lexicon-based sentiment analysis
   - Special symbols were removed
   - A polarity score was assigned to each text, representing negative or positive sentiment (-1 to 1)
+- Redundant columns were dropped
 
 ## Models and Techniques
 
