@@ -75,22 +75,28 @@ The computed score for Lasso Regression, or the coefficient of determination, is
 
 ### Ridge Regression
 
-Ridge Score: 0.99393
-Ridge Score (Reduced Features): 0.99995
+- Ridge Score: 0.99393
+- Ridge Score (Reduced Features): 0.99995
 
 ### Decision Tree
 
-Decision Tree Score: 0.98373
-Decision Tree Score (Reduced Features): 0.99994
+- Decision Tree Score: 0.98373
+- Decision Tree Score (Reduced Features): 0.99994
 
 ### Random Forest
 
-Random Forest Score: 0.98751
-Random Forest Score (Reduced Features): 0.99979
+- Random Forest Score: 0.98751
+- Random Forest Score (Reduced Features): 0.99979
 
 ## Results
 
-The predictor built using ridge regression proves to be the most accurate of the models with a near perfect accuracy once the features are reduced.
+The predictor built using ridge regression proves to be the most accurate of the models with a near perfect accuracy once the features are reduced.  Using the predictor, a simulation was run using every single possible combination of feature values in order to determine which combination would produce the the highest rating.  It was found that a value of 10 for each feature produced a rating of 99.960235, which when rounded to the nearest integer, would be a rating of 100.
+
+This is an interesting outcome due to the fact that features such as acidity and body are highly subjective.  I would not have assumed that a coffee with a high acidity rating would be the best rated option.  But this could also be an unintended consequence of having a skewed dataset.
+
+Grouping the coffee by region also produces some insight into how the regions compare.  A box plot shows that Central America and South America produce coffee with some of the highest potential but also varies widely in quality while regions like Africa-Arabia and Hawaii are more consistent in quality.
+
+The groupings also show that Hawaii produces coffee with the highest value.  This is likely due to the cost of property in Hawaii and the limitted real estate creating scarcity.
 
 ## Conclusions
 
