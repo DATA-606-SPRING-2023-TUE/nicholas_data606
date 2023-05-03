@@ -63,13 +63,36 @@ The cleaning process included not only removing unneeded columns but also perfor
 
 In order to find the variables with the strongest correlations, a correlation heat map was generated.  This allows us to identify at a glance which of the features have a strong correlation to the label.  When these features are identified, the remaining features with little to no coreelation can be dropped, thus decreasing the overall complexity of the dataset.  In cases where there are many unrelated features, this step can result in more accurate predictors.
 
+
+We find from the heatmap that the features with the strongest correlation to the rating are Aroma, Acid, Body, Flavor, and Aftertaste.  The rest of the features have negligible correlation to rating and can be discarded.  This includes the polarities of the text portions of the review.  They have little to no role in predicting the rating.
+
 ### Lasso Regression
+
+Lasso Regression – A penalized regression method that is useful when dealing with a large number of features.  Lasso Regression Uses coefficients to decrease the effects that unrelated variables have on predicting the label. This can negatively impact accuracy in cases where coefficients are driven so low that the features no longer impact the label.  This may be a result of insufficient training, datasets with little correlation, or large outliers.
+
+Lasso Score: 0.02147
+Lasso Score (Reduced Features): -0.00655
+
+The computed score for Lasso Regression, or the coefficient of determination, is the proportion of the label that can be predicted by the features.  The scored produced here are very low and provide no reliable predictability.  This shows that Lasso Regression is not a suitable model for this data.
 
 ### Ridge Regression
 
+Ridge Score: 0.99393
+Ridge Score (Reduced Features): 0.99995
+
 ### Decision Tree
 
+Decision Tree Score: 0.98373
+Decision Tree Score (Reduced Features): 0.99994
+
 ### Random Forest
+
+Random Forest Score: 0.98751
+Random Forest Score (Reduced Features): 0.99979
+
+## Results
+
+The predictor built using ridge regression proves to be the most accurate of the models with a near perfect accuracy once the features are reduced.
 
 ## Conclusions
 
