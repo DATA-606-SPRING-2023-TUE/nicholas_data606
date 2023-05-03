@@ -12,11 +12,9 @@ Coffee is a popular drink worldwide and as a result is a large global industry. 
 Goal: Analyze the reviews of a wide variety of coffees from around to world in an attempt to create a coffee with the highest rating.
 In order to accomplish this goal, There are several angles that can be explored:
 
-• What aspects of coffee have the largest impact on rating and price?
-
-• Which regions produce the best coffee?
-
-• Does price and rating have a correlation?
+- What aspects of coffee have the largest impact on rating and price?
+- Which regions produce the best coffee?
+- Does price and rating have a correlation?
 
 I will use the data to train a model to predict the rating of a coffee given a review, and use this model with a maximiztion function to determine the values for each feature that will maximize the rating.
 
@@ -70,8 +68,8 @@ We find from the heatmap that the features with the strongest correlation to the
 
 Lasso Regression – A penalized regression method that is useful when dealing with a large number of features.  Lasso Regression Uses coefficients to decrease the effects that unrelated variables have on predicting the label. This can negatively impact accuracy in cases where coefficients are driven so low that the features no longer impact the label.  This may be a result of insufficient training, datasets with little correlation, or large outliers.
 
-Lasso Score: 0.02147
-Lasso Score (Reduced Features): -0.00655
+- Lasso Score: 0.02147
+- Lasso Score (Reduced Features): -0.00655
 
 The computed score for Lasso Regression, or the coefficient of determination, is the proportion of the label that can be predicted by the features.  The scored produced here are very low and provide no reliable predictability.  This shows that Lasso Regression is not a suitable model for this data.
 
