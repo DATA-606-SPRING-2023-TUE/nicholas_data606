@@ -57,6 +57,8 @@ The cleaning process included not only removing unneeded columns but also perfor
 
 ### Sentiment Analysis
 
+Sentiment analysis will be performed using VADER, a lexicon-based analyzer.  Lexicon-based analyzers remove the need for greater context because they break down texts into individual tokens before they are processed.  Each token can then be analyzed indivdually without the need to understand it in the context it was given in.  This makes Lexicon-based analyzers a general solution for sentiment analysis without the worry of needing to understand the nuances behind the text being analyzed.
+
 ### Feature Reduction
 
 In order to find the variables with the strongest correlations, a correlation heat map was generated.  This allows us to identify at a glance which of the features have a strong correlation to the label.  When these features are identified, the remaining features with little to no coreelation can be dropped, thus decreasing the overall complexity of the dataset.  In cases where there are many unrelated features, this step can result in more accurate predictors.
@@ -99,6 +101,8 @@ Grouping the coffee by region also produces some insight into how the regions co
 The groupings also show that Hawaii produces coffee with the highest value.  This is likely due to the cost of property in Hawaii and the limitted real estate creating scarcity.
 
 ## Conclusions
+
+
 
 ## Future Work
 
