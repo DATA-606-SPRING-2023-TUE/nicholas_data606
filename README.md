@@ -77,7 +77,7 @@ The computed score for Lasso Regression, or the coefficient of determination, is
 
 ### Ridge Regression
 
-Ridge Regression - Another penalized regression method.  Ridge regression
+Ridge Regression - Another penalized regression method.
 
 - Ridge Score: 0.99393
 - Ridge Score (Reduced Features): 0.99995
