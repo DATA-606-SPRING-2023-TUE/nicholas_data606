@@ -44,6 +44,15 @@ There are several biases noted on the website where the data was scraped from.  
 
 ## Cleaning
 
+The cleaning process includes not only removing unneeded columns but also performing type conversions.  Non-numeric type values were converted into numeric type values for the purpose of regression.
+- Dates were converted from string to dateTime then to integer
+- Prices and quantities were standardized.
+  - These values were converted to USD/grams for the sake of comparison
+  - Currency conversions were taken from Google Finance using rates from March 29, 2023
+- Text portions of reviews were converted to numeric values using VADER lexicon-based sentiment analysis
+  - Special symbols were removed
+  - A polarity score was assigned to each text, representing negative or positive sentiment (-1 to 1)
+
 ## Models and Techniques
 
 ### Feature Reduction
