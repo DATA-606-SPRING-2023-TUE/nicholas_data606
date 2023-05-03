@@ -57,7 +57,11 @@ The cleaning process included not only removing unneeded columns but also perfor
 
 ## Models and Techniques
 
+### Sentiment Analysis
+
 ### Feature Reduction
+
+In order to find the variables with the strongest correlations, a correlation heat map was generated.  This allows us to identify at a glance which of the features have a strong correlation to the label.  When these features are identified, the remaining features with little to no coreelation can be dropped, thus decreasing the overall complexity of the dataset.  In cases where there are many unrelated features, this step can result in more accurate predictors.
 
 ### Lasso Regression
 
@@ -66,8 +70,6 @@ The cleaning process included not only removing unneeded columns but also perfor
 ### Decision Tree
 
 ### Random Forest
-
-### Sentiment Analysis
 
 ## Conclusions
 
