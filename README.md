@@ -112,6 +112,8 @@ The groupings also show that Hawaii produces coffee with the highest value.  Thi
 
 ## Future Work
 
+One feature that could be explored in greater depth is the review_date feature.  Using this value, time series analyses may be performed.  Particularly, one might be able to find some patterns in coffee reviews in the context of covid.
+
 ## References
 
 https://www.analyticsvidhya.com/blog/2016/01/ridge-lasso-regression-python-complete-tutorial/#What_Are_Ridge_Regression_and_Lasso_Regression?
