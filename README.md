@@ -112,6 +112,8 @@ The coefficient of correlation shows that Lasso Regression, the original method 
 
 Sentiment analysis did not have as large of an impact on this project as was originally expected.  The models show that when the sentiment of the text portions of the reviews are removed, the predictors increase in accuracy.  This means that the sentiment is uncorrelated to the target and has no predictive power when determining the rating of a review.  This could be a result of the biases noted in the dataset or a difficulty comprehending the nuancies of the terminology used when describing coffee by the analyzer.
 
+When analyzing the data by region, we find that Central America and South America produce coffee with some of the highest ratings.  These regions have the most potential but also the most variance in quality compared to Africa-Arabia and Hawaii which produces more consistent coffee.  Hawaii produces some of the most expensive coffee.  This can be due to the fact that real estate in Hawaii is limitted as it is the smallest region, thus creating scarcity and driving up prices.
+
 ## Future Work
 
 One feature that could be explored in greater depth is the review_date feature.  Using this value, time series analyses may be performed.  Particularly, one might be able to discover some patterns in coffee reviews in the context of covid.
