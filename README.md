@@ -84,10 +84,14 @@ Ridge Regression - Another penalized regression method.  In this model, no featu
 
 ### Decision Tree
 
+Decision Tree - A model that uses the features of the dataset to make a series of informed decisions to arrive at a  prediction.  The order of decisions to be made is based on the importance of each feature.  This model is easy to interpret and fast to train.
+
 - Decision Tree Score: 0.98373
 - Decision Tree Score (Reduced Features): 0.99994
 
 ### Random Forest
+
+Random Forest - A model that uses a series of random decision trees in order to simultaneously compute several outputs.  These results are then aggregated to make the final prediction.  Good for large datasets but can be time consuming.
 
 - Random Forest Score: 0.98751
 - Random Forest Score (Reduced Features): 0.99979
