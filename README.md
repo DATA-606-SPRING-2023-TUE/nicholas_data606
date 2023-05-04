@@ -77,7 +77,7 @@ The computed score for Lasso Regression, or the coefficient of determination, is
 
 ### Ridge Regression
 
-Ridge Regression - Another penalized regression method.
+Ridge Regression - Another penalized regression method.  In this model, no features are penalized to 0, so each feature is present in computing the prediction.  This model is used to prevent over overfitting.
 
 - Ridge Score: 0.99393
 - Ridge Score (Reduced Features): 0.99995
@@ -109,4 +109,8 @@ The groupings also show that Hawaii produces coffee with the highest value.  Thi
 ## Future Work
 
 ## References
+
+https://www.analyticsvidhya.com/blog/2016/01/ridge-lasso-regression-python-complete-tutorial/#What_Are_Ridge_Regression_and_Lasso_Regression?
+
+
  
