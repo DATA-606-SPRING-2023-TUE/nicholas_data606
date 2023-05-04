@@ -118,7 +118,7 @@ When analyzing the data by region, we find that Central America and South Americ
 
 One feature that could be explored in greater depth is the review_date feature.  Using this value, time series analyses may be performed.  Particularly, one might be able to discover some patterns in coffee reviews in the context of covid and how the pandemic affected the industry.  Another thing that can be analyzed is if trends in flavor or styles of coffee have changed over time and attempt to make predictions about where the trends may lead.
 
-Another opportunity for improvement is addressing the baises in the dataset.  A new rating system may need to be implimented in order to get a better understanding of how characteristics of coffee can predict the rating.  The selection bias by the reviewers in the dataset needs to be addressed and there needs to be a more comprehensive collection of coffee reviews.  One option is to have the scores refactored so that the ratings are not skewed to the high end of the spectrum, and instead are more evenly distributed.  This may combat the issue of the rising standards of coffee.
+Another opportunity for improvement is addressing the biases in the dataset.  A new rating system may need to be implimented in order to get a better understanding of how characteristics of coffee can predict the rating.  The selection bias by the reviewers in the dataset needs to be addressed and there needs to be a more comprehensive collection of coffee reviews.  One option is to have the scores refactored so that the ratings are not skewed to the high end of the spectrum, and instead are more evenly distributed.  A periodic refactoring will also combat the issue of the rising standards of coffee.
 
 ## References
 
