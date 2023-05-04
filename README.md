@@ -110,7 +110,7 @@ The groupings also show that Hawaii produces coffee with the highest value.  Thi
 
 The coefficient of correlation shows that Lasso Regression, the original method of regression selected for this project, is not suitable for the data set.  Furthermore, the correlation heat map reveals that the vast majority of the features in this data set have little to no impact on predicting the rating of a coffee.  The only features with significant correlation to the target are Aroma, Acid, Body, Flavor, and Aftertaste.  The various models used prove that higher accuracy predictions can be made once the data set is reduced.  In fact, the predictors gain near 100% accuracy after feature reduction.
 
-Sentiment analysis did not have as large of an impact on this project as was originally expected.  The models show that when the sentiment of the text portions of the reviews are removed, the predictors increase in accuracy.  This means that the sentiment is uncorrelated to the target and has no predictive power when determining the rating of a review.  This could be a result of the biases noted in the dataset or a difficulty comprehending the nuancies of the terminology used when describing coffee.
+Sentiment analysis did not have as large of an impact on this project as was originally expected.  The models show that when the sentiment of the text portions of the reviews are removed, the predictors increase in accuracy.  This means that the sentiment is uncorrelated to the target and has no predictive power when determining the rating of a review.  This could be a result of the biases noted in the dataset or a difficulty comprehending the nuancies of the terminology used when describing coffee by the analyzer.
 
 ## Future Work
 
