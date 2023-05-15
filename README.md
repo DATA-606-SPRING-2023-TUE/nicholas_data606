@@ -3,7 +3,7 @@ My UMBC Capstone project
 
 Youtube Link: 
 
-PPT Link: [capstone.pptx]
+PPT Link: [capstone.pptx](capstone.pptx)
 
 ## Introduction
 
