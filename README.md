@@ -1,10 +1,9 @@
 # Nicholas_data606
 My UMBC Capstone project
 
-Youtube Link:
+Youtube Link: 
 
-PPT Link:
-[a relative link](other_file.md)
+PPT Link: [capstone.pptx]
 
 ## Introduction
 
